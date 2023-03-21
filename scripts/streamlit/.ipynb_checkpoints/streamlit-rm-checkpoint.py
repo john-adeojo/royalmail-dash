@@ -15,7 +15,7 @@ def get_emoji(sentiment):
     elif sentiment == "neutral":
         return "😐"
     elif sentiment == "negative":
-        return "😑"
+        return "😡"
     else:
         return "❓"
 
@@ -61,5 +61,6 @@ st.markdown("### Produced by [John Adeojo](https://www.john-adeojo.com/)")
 
 
 map = create_map(tweets_dash_final)
-folium_static(map)
+folium_static(map, width=900, height=600)
 st.text('This is for prototyping purposes only')
+st.text('Data is between jan-2023 and mar-2023')
