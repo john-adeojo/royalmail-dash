@@ -57,8 +57,8 @@ def create_map(tweets_dash_final):
 
 # Streamlit app
 st.title("Topic & Sentiment Map of #royalmail Tweets")
-st.markdown("Dashboard produced by [John Adeojo](https://www.john-adeojo.com/)")
-st.sidebar.title("Options")
+st.markdown("### Produced by [John Adeojo](https://www.john-adeojo.com/)")
+
 
 map = create_map(tweets_dash_final)
 folium_static(map)
