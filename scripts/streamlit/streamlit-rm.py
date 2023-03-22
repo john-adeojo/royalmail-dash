@@ -61,6 +61,6 @@ st.markdown("### Produced by [John Adeojo](https://www.john-adeojo.com/)")
 
 
 map = create_map(tweets_dash_final)
-folium_static(map, width=1700, height=600)
+folium_static(map, width=2000, height=600)
 st.text('This is for prototyping purposes only')
 st.text('Data is between jan-2023 and mar-2023')
